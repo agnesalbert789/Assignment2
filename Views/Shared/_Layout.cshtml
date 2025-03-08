@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Georgian College Ticketing System</title>
+    <link rel="stylesheet" href="~/css/site.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/GeorgianCollege.styles.css" type="text/css" />
+    <link rel="stylesheet" href="~/css/Custom.css" type="text/css" />
+</head>
+<body>
+
+    <header class="sidebar">
+        <h1>Georgian College Ticketing System</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main class="content">
+        <section class="welcome">
+            <h2>Welcome to the Georgian College Ticketing System</h2>
+            <p>Manage your tickets efficiently and stay updated with the latest events.</p>
+        </section>
+        <section class="about">
+            <p>Our proposal aims to revolutionize communication between students and various college departments, including the cafeteria, faculty, human resources, IT support, and gym. This innovative ticketing system enables students to submit and monitor tickets for their problems or requests, ensuring prompt resolution.</p>
+        </section>
+        <section class="content">
+            @RenderBody()
+        </section>
+   
+      
+        <section class="image-section">
+            <img src="~/NewFolder/Georgian-Grizzlies-Colour.jpg" alt="College Campus">
+        </section>
+    </main>
+
+ 
+    <div class="login-box">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 - Georgian College Ticketing System</p>
+        <ul>
+            <li>Mary Agnes Albert, 200588943</li>
+            <li>Ann Mary Swetilna,200588539 </li>
+            <li>Mariya Josephine Jemy, 200594567</li>
+        </ul>
+        <p>Course: Server-Side Scripting-ASP.NET, Course Code: COMP2084</p>
+
+    </footer>
+</body>
+</html>
