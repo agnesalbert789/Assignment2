@@ -42,4 +42,4 @@ o	Students can view the status of their tickets and any updates made by admins.
 # How to Use
 Clone the repository:
 •	   git clone https://github.com/your-username/GeorgianCollegeTicketingSystem.git
-
+AZURE DEPLOYMENT LINK :https://georgiancollege20250307225844.azurewebsites.net/
